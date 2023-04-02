@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iguanas</title>
+    <!--liga el archivo css-->
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <!--liga fontawesome (uso mi cuenta)-->
+    <script src="https://kit.fontawesome.com/474ad9558e.js" crossorigin="anonymous"></script>
+    <!--liga tipo de letra raleway-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--Titular sencillo-->
+    <header>
+        <h1>Iguanas</h1>
+    </header>
+
+    <!--Sección con la imagen principal puesta directamente-->
+    <!--Por medio de css se da un ancho de 100%-->
+    <!--imagen integrada con css a sugerecia del docente,-->
+    <!--para cumplir con las especificaciones-->
+    <section class="imgfondo">
+        <!--<img src="assets/img/bg-header.jpg" alt="iguana-header">-->
+    </section>
+
+    <!--Parte principal o capital del documento-->
+    <!--Sección principal con información sobre la especie en cuestión.-->
+    <!--La section fue tratada con inline-block para que la imagen-->
+    <!--cupiera al costado derecho-->
+    <main>
+        <section>
+            <p>
+                La iguana es un reptil perteneciente a la familia iguanadae. Su tamaño está entre los 15 cm hasta los 2
+                metros de largo y puede llegar a pesar unos 15 kg. Cuando están jóvenes tienen una coloración con tonos
+                verdes y al ir madurando predomina un color grisáceo con crestas o espinas en su espalda.
+            </p>
+            <p>
+                La alimentación de la iguana va variando según su etapa de vida, pero la mayor parte de sus años son
+                herbivoras. Viven en lugares tropicales con mucha vegetación y es un animal que puede ser domesticado.
+            </p>
+        </section>
+        <img src="assets/img/iguana-1.jpg" alt="iguana1">
+    </main>
+
+    <!--Sección de figuras con sus textos respectivos bajo ellas-->
+    <!--Contiene una titular sencillo-->
+    <!--dos div, cada uno con tres p, que vía css son tratados con inline-block-->
+    <!--para su posicionamiento, ancho de caja contenedora y alinemiento del contenido-->
+    <section class="iconos">
+        <h1>
+            CARACTERÍSTICAS
+        </h1>
+        <div class="container">
+            <div>
+                <p class="icono">
+                    <i class="far fa-eye fa-3x"></i>
+                </p>
+                <p class="icono">
+                    <i class="far fa-hand-peace fa-3x"></i>
+                </p>
+                <p class="icono">
+                    <i class="fas fa-paint-brush fa-3x"></i>
+                </p>
+            </div>
+            <!--La clase texticono además modifica tamaño, peso y otras-->
+            <!--características de la fuente-->
+            <div>
+                <p class="textoicono">Tercer ojo</p>
+                <p class="textoicono">Pacíficas</p>
+                <p class="textoicono">Cambian de color</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Galeria de imágenes. Se incorporó id para manajar-->
+    <!--su ancho individualmente-->
+    <!--(la verdad no encontré otra forma de manejar el alto-->
+    <!--sin distorcionar la imagen)-->
+    <section class="galeria">
+        <img src="assets/img/iguana-2.jpg" alt="iguana2" id="ig2">
+        <img src="assets/img/iguana-3.jpg" alt="iguana3" id="ig3">
+        <img src="assets/img/iguana-4.jpg" alt="iguana4" id="ig4">
+    </section>
+
+    <!--Pie con liga a página externa-->
+    <!--Se opta por usar target=_blank por no estar explícito el cómo hacerlo-->
+    <footer class="letrapie">
+        Visita <a href="https://www.anipedia.net/iguanas/iguana-verde/"
+            target="_blank">https://www.anipedia.net/iguanas/iguana-verde/</a>
+        para conocer más
+    </footer>
+
+
+</body>
+
+</html>
